@@ -13,13 +13,10 @@ wid =w ;
 hei = h;
 dep = d;
 }
-
-
 double volume () {
     return wid * hei * dep;
 }
 }
-
 class boxnew  {
         public static void main(String[] args) {
         Box mybox1 = new Box (1, 5, 9);
