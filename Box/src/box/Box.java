@@ -1,14 +1,14 @@
 
-package boxnew;
+package box;
 
 
-class Box {
+class Box2 {
     double wid;
     double hei;
     double dep;
 
 
-Box (double w, double h, double d) {
+Box2 (double w, double h, double d) {
 wid =w ;
 hei = h;
 dep = d;
@@ -17,10 +17,10 @@ double volume () {
     return wid * hei * dep;
 }
 }
-class boxnew  {
+class Box  {
         public static void main(String[] args) {
-        Box mybox1 = new Box (1, 5, 9);
-        Box mybox2 = new Box (1, 15, 30);        
+        Box2 mybox1 = new Box2 (1, 5, 9);
+        Box2 mybox2 = new Box2 (1, 15, 30);        
     
     
 double vol;
